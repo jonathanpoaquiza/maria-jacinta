@@ -13,7 +13,7 @@ import "./styles/global.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <BrowserRouter basename="/maria-jacinta/">
+    <BrowserRouter basename="/maria-jacinta/frontend/react-ts">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
